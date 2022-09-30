@@ -9,7 +9,7 @@ class A{
     A(int v): 
       val(v){}
     
-    print(){
+    void print(){
       std::cout<< "val:" << val << '\n';
     }
 };
@@ -30,6 +30,11 @@ int main(int argc, char* argv[]) {
 
   //~ std::cout << "Count:" << ii << '\n';
 
+  A* a = new A(10);
+  a->print();
+  
+  //~ A* b;
+  //~ b->print();
   
   return 0;
 }
