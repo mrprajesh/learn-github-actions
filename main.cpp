@@ -33,8 +33,8 @@ int main(int argc, char* argv[]) {
   A* a = new A(10);
   a->print();
   
-  //~ A* b;
-  //~ b->print();
+  A* b;
+  b->print();
   
   return 0;
 }
