@@ -13,19 +13,19 @@ class A {
 int main(int argc, char* argv[]) {
   std::cout << "Hello Dear Programmer! \n\n --cpp\n";
 
-  //~ size_t N = 1024;
-  //~ size_t ii = 0;
-  //~ try {
-  //~ int* a = (int*) malloc (sizeof(int) * N);
+  size_t N = 1024;
+  size_t ii = 0;
+  try {
+    int* a = (int*) malloc (sizeof(int) * N);
+  
+    for (ii = 0; ii < 100*N; ++ii) {
+      a[ii] = ii;
+     }
+  } catch (...) {
+    std::cout << "Exception! ";
+  }
 
-  //~ for (ii = 0; ii < 100*N; ++ii) {
-  //~ a[ii] = ii;
-  //~ }
-  //~ } catch (...) {
-  //~ std::cout << "Exception! ";
-  //~ }
-
-  //~ std::cout << "Count:" << ii << '\n';
+  std::cout << "Count:" << ii << '\n';
 
   A* a = new A(10);
   a->print();
