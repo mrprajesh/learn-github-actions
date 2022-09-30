@@ -9,7 +9,7 @@
 
 
 ```
-## Step 1. an .yml file
+## Step 1. an build.yml file
 
 name: Build
 on:
