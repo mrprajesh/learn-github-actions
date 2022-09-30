@@ -4,12 +4,12 @@
 [![Dev](https://github.com/mrprajesh/learn-github-actions/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/mrprajesh/learn-github-actions/actions/workflows/build.yml)
 
 ## How to create build status badges in github
-1. create an actions `.github/workflows` file
-2. Add the badge code in to readme
+1. create an action file in `.github/workflows` folder and commit.
+2. Add the badge code in to readme and commit & push too see the effect.
 
 
 ```
-## Step 1. an build.yml file
+## Step 1. say build.yml file
 
 name: Build
 on:
