@@ -3,14 +3,14 @@ on:
   push:
     branches: [ main, dev ]
   pull_request:
-    branches: [ $default-branch ]
+    branches: [ main, dev ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
         
     - name: Run Make
       run:  make
