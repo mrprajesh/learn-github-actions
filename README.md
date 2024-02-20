@@ -7,7 +7,7 @@
 
 ## How to create build status badges in github
 1. create an action file in `.github/workflows` folder and commit.
-2. Add the badge code in to readme and commit & push too see the effect.
+2. Add the badge code into readme and commit & push to see the effect.
 
 
 ```
